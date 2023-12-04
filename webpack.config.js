@@ -26,7 +26,17 @@ module.exports = {
                 test: /\.html$/i,
                 loader: 'html-loader',
             },
+            {
+                test: /\.tsx?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'ts-loader',
+                }
+            },
         ],
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js'],
     },
     plugins: [
         new HtmlWebpackPlugin({
