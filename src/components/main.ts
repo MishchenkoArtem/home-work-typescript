@@ -1,8 +1,15 @@
 import Movie from './Movie'
+import Buyable from './Buyable';
 
-const movie = new Movie();
-const basket = [];
+const cardFilm = {
+    title: 'Мстители',
+    year: 2012,
+    country: 'США',
+    slogan: 'Avengers Assemble',
+    genre: 'фантастика, боевик, фэнтези, приключения, ...',
+    time: '137 мин. / 02:17'
+}
 
-addEventListener('click', () => {
-    basket.push(movie.item);
-});
+const movie = new Movie(cardFilm);
+
+console.log(movie)

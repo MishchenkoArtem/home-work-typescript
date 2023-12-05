@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
-    "build": "rm -rf dist && webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "jest",
     "lint": "eslint .",
     "coverage": "jest --coverage",
     "watch": "tsc -w",
-    "building": "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
