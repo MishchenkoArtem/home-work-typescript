@@ -13,10 +13,3 @@ export default class Movie {
         }
     }
 }
-
-// this.title = title,
-// this.year = year,
-// this.country = country,
-// this.slogan = slogan,
-// this.genre = genre,
-// this.time = time

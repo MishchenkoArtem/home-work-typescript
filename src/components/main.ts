@@ -12,4 +12,4 @@ const cardFilm = {
 
 const movie = new Movie(cardFilm);
 
-console.log(movie)
+console.log(movie);
