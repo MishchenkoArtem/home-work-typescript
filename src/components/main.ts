@@ -1,7 +1,7 @@
 import Movie from './Movie'
-import Buyable from './Buyable';
+import Cart from './Cart';
 
-const cardFilm = {
+const itemCard = {
     title: 'Мстители',
     year: 2012,
     country: 'США',
@@ -10,6 +10,4 @@ const cardFilm = {
     time: '137 мин. / 02:17'
 }
 
-const movie = new Movie(cardFilm);
-
-console.log(movie);
+const movie = new Movie(itemCard);

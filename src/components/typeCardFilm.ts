@@ -1,4 +1,4 @@
-export default interface Buyable { 
+export default interface cardFilm { 
     readonly title: string;
     readonly year: number;
     readonly country: string;

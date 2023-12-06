@@ -1,7 +1,7 @@
-import Buyable from './Buyable';
+import cardFilm from './typeCardFilm';
 
 export default class Movie {
-    item: Buyable;
+    item: cardFilm;
     constructor ({title, year, country, slogan, genre, time}) {
         this.item = {
             title: title,
