@@ -33,6 +33,6 @@ export default class Cart {
     }
 
     deleteObject() {
-
+        this._items.filter(element => !('id' in element));
     }
 }
