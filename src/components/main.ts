@@ -1,5 +1,6 @@
 import Movie from './Movie'
 import Cart from './Cart';
+import typeCart from './typeCart';
 
 const itemCard = {
     title: 'Мстители',
@@ -11,3 +12,12 @@ const itemCard = {
 }
 
 const movie = new Movie(itemCard);
+
+const item: typeCart = {
+    id: 374516,
+    name: 'War and Peace',
+    price: 300
+}
+
+const cart = new Cart();
+cart.add(item);
